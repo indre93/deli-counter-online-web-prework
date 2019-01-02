@@ -4,9 +4,14 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 
 
 def line(katz_deli)
-  puts "The line is currently empty."
-
+  if katz_deli == 0
+    puts "The line is currently empty."
+  else katz_deli >= 1
+    
 end
+
+
+
 
 describe "#line" do
     context "there is nobody in line" do
