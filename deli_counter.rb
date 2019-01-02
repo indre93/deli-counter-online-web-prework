@@ -6,10 +6,11 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  else katz_deli.each_with_index(0) do |name, index|
-    puts "The line is currently: #{index}. #{name}" 
+  else katz_deli.each_with_index do |name, index|
+    katz_deli.push("#{index}. #{name}")
   end
 end
+puts 
 end
 
 
